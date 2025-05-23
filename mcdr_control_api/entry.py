@@ -53,8 +53,7 @@ def mount_app():
 def on_command_node_print(src: CommandSource, ctx: CommandContext):  # pylint: disable=unused-argument
     """Debug command to print something need test.
 
-    Arguments:
-        <use_logger> - Whether to use mcdr logger or not.
+    Usage: `!!ctl_api print <use_logger>`
     """
     server = mcdr_control_api.psi
     if not isinstance(server, PluginServerInterface):

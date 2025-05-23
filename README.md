@@ -1,37 +1,20 @@
 # MCDRControlAPI
+A simple API for controlling MCDReforged server.
 
-#### 介绍
-A control API for MCDReforged.
+## Usage
+1. Install FastAPIMCDR from MCDR console: `!!MCDR plg install fastapi_mcdr [--confirm]`
+> If you want to install without running MCDR server, open the plugin folder and run `mcdreforged pim download fastapi_mcdr && mcdreforged pim pipi FastAPI*.mcdr`
 
-#### 软件架构
-软件架构说明
+2. Configure FastAPIMCDR, edit the host(address) and the port.
 
+3. Install this plugin from release.
+> Once this plugin committed to [PluginCatalogue](https://github.com/MCDReforged/PluginCatalogue), you can install it from MCDR console: `!!MCDR plg install mcdr_control_api [--confirm]`
 
-#### 安装教程
+4. Now you can see the API document at `http://<host>:<port>/mcdr_control_api/docs`
+> You can also configure HTTPS, then use `https://<domain>[/<path>]/mcdr_control_api/docs`
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## NOTICE
+- At present all informations this plugin provides are opened to public, so if you don't want to expose some your server information, you can configure in the config file.
+> Config part is developing, so no release for this plugin. You shouldn't use this plugin in your production environment!
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- APIs for controlling MCDR server is still developing...
