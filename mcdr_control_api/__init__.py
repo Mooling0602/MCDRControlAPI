@@ -24,9 +24,9 @@ class Path(StrEnum):
 async def test():
     """A test endpoint to check if this FastAPI instance(app) is working fine.
 
-    If so, it will return a string `"Hello, world!"`.
+    If so, it will return a string `"Hello, mcdr!"`.
     """
-    return "Hello, world!"
+    return "Hello, mcdr!"
 
 
 @app.get("/app_id")
