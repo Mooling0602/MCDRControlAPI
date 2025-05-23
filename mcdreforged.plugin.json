@@ -1,0 +1,19 @@
+{
+    "id": "mcdr_control_api",
+    "version": "0.0.1",
+    "name": "MCDRControlAPI",
+    "description": {
+        "en_us": "A simple API for controlling MCDReforged server.",
+        "zh_cn": "一个用于控制MCDReforged服务器的API。"
+    },
+    "author": "CleMooling",
+    "link": "https://gitee.com/CleMooling/MCDRControlAPI",
+    "dependencies": {
+        "mcdreforged": ">=2.14.1",
+	"fastapi_mcdr": ">=2.0.0"
+    },
+    "entrypoint": "mcdr_control_api.entry",
+    "resources": [
+        "lang"
+    ]
+}
